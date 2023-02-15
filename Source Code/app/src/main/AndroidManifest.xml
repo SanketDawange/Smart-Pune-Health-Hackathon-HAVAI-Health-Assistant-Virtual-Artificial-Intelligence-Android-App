@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthyAssistant"
+        tools:targetApi="31">
+        <activity
+            android:name=".HOSPIAYUSHMANACT"
+            android:exported="false" />
+        <activity
+            android:name=".AyushManBharatACT"
+            android:exported="false" />
+        <activity
+            android:name=".requiredDocuments"
+            android:exported="false" />
+        <activity
+            android:name=".DibateseMainACT"
+            android:exported="false" />
+        <activity
+            android:name=".D5_Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".D5_c"
+            android:exported="false" />
+        <activity
+            android:name=".D4_Respiratory"
+            android:exported="false" />
+        <activity
+            android:name=".D3_Heart"
+            android:exported="false" />
+        <activity
+            android:name=".D2_Diabetes"
+            android:exported="false" />
+        <activity
+            android:name=".D1_Kidney"
+            android:exported="false" />
+        <activity
+            android:name=".SchemesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VoiceChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--        android:textFontWeight="90"-->
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="339dp"
+        android:layout_height="79dp"
+        android:text="Pradhan Mantri Jan Arogya Yojana (PMJAY)"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="585dp"
+        android:text="
+
+ This scheme provides free medical treatment for cancer and other life-threatening diseases to poor and economically weaker sections   of the society.
+"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/material_dynamic_primary0"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="356dp"
+        android:layout_height="585dp"
+        android:layout_marginTop="232dp"
+        android:text="  Eligibility: economically weaker sections and vulnerable groups,below the poverty line (BPL).
+"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.654"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="347dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="368dp"
+        android:text="Free medical treatment for cancer and other specified diseases,
+@ up to 5 lakh rupees per family per year.
+"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewj4"
+        android:layout_width="347dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="480dp"
+        android:text="Hospitals in pune:   Accord Hospital. PMJAY, (Private) ...
+Apex Hospital. PMJAY, (Private)
+Attharva Accident Hospital. PMJAY, (Private)
+Aundh Institute Of Medical Science , Aundh. PMJAY, (Private)
+Baramati Hospitals Pvt Ltd. PMJAY, (Private)
+Bhagyajay Hospital. PMJAY, (Private "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
